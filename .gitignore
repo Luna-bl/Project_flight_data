@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/clean/
+data/tmp/
+*.parquet
+*.feather
+
+# Plots & reports
+docs/figures/
+docs/report.html
+docs/report.pdf
