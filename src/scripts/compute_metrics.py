@@ -1,3 +1,10 @@
+#Ce script "compute_metrics" sert à prendre un dataset nettoyé de vols, 
+#calculer des indicateurs importants (comme le gradient de montée, 
+#la stabilité de la vitesse, etc.), 
+#puis sauvegarder ces indicateurs dans un fichier JSON, 
+#tout en affichant ces résultats dans la console.
+
+
 from __future__ import annotations
 import argparse, json
 import pandas as pd

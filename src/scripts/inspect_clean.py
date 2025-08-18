@@ -2,7 +2,7 @@
 #Il « nettoie » et prépare ces données (calcul de vitesse verticale, segmentation).
 #Il produit un fichier .parquet prêt à l’usage dans d’autres scripts.
 #Il génère des graphiques pour visualiser ces données dans un dossier spécifique.
-#Le lien avec le reste du projet
+ 
 #Ce script correspond à une étape de pré-traitement des données.
 #Les fichiers .parquet générés sont utilisés dans les étapes suivantes, 
 #par exemple pour calculer des métriques ou générer des rapports.

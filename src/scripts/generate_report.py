@@ -1,3 +1,9 @@
+#Ce script sert à créer automatiquement un rapport Markdown complet qui présente :
+#des informations sur le dataset, les métriques calculées, 
+#des figures visuelles liées aux données de vol
+#Le rapport est écrit dans un fichier .md que tu peu ensuite ouvrir dans un éditeur Markdown 
+#ou sur une plateforme qui rend ce format (comme GitHub, VSCode, etc.).
+
 from __future__ import annotations
 import argparse, json
 from pathlib import Path

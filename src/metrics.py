@@ -1,3 +1,7 @@
+#Ce fichier metrics.py contient les fonctions qui calculent des métriques physiques 
+#à partir des données de vol nettoyées (altitude, vitesse, phases de vol, etc.).
+#Il est utilisé dans l’étape où tu exécutes
+
 from __future__ import annotations
 import numpy as np
 import pandas as pd
