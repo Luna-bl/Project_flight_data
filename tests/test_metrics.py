@@ -1,8 +1,17 @@
+import sys
+import os
+
+# Ajouter le dossier 'src' au chemin de recherche des modules
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
+
+
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta, timezone
-from src.derive import compute_vertical_speed, segment_phases
-from src.metrics import climb_gradient, tas_stability, descent_energy_rate
+#from src.derive import compute_vertical_speed, segment_phases
+#from src.metrics import climb_gradient, tas_stability, descent_energy_rate
+from derive import compute_vertical_speed, segment_phases
+from metrics import climb_gradient, tas_stability, descent_energy_rate
 
 def make_df(n=10, dt=1.0):
     t0 = datetime(2024,1,1,tzinfo=timezone.utc)
