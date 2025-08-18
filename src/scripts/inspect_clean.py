@@ -15,8 +15,7 @@ import pandas as pd
 from rich.console import Console
 from src.io import load_csv, save_parquet
 from src.derive import compute_vertical_speed, segment_phases
-from src.plotting import plot_altitude, plot_vs, plot_planview
-
+from src.plotting import plot_altitude, plot_vs, plot_planview, plot_speed_phase_timeline
 console = Console()
 
 def main():
@@ -58,6 +57,8 @@ def main():
     plot_altitude(df, str(figs_dir))
     plot_vs(df, str(figs_dir))
     plot_planview(df, str(figs_dir))
+    plot_speed_phase_timeline(df, str(figs_dir))  # 
+
 
     console.log('Done. Figures in docs/figures')
 
