@@ -1,8 +1,11 @@
 import pandas as pd
 import json
 
+#https://raw.githubusercontent.com/Luna-bl/Project_flight_data/refs/heads/master/flight_way.geojson?token=GHSAT0AAAAAADIZOC3DIUEDNZU6AVWREZSY2FEJC7A
+
+
 df = pd.read_csv("flight_sample.csv")
-coords = df[['lon', 'lat']].values.tolist()  # GeoJSON = [lon, lat]
+coords = df[['lon', 'lat']].values.tolist()  #
 
 geojson_data = {
     "type": "FeatureCollection",
