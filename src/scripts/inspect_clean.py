@@ -58,7 +58,7 @@ def main():
     plot_vs(df, str(figs_dir))
     plot_planview(df, str(figs_dir))
     plot_speed_phase_timeline(df, str(figs_dir))  # 
-
+    
 
     console.log('Done. Figures in docs/figures')
 
