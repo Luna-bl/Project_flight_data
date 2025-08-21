@@ -29,3 +29,7 @@ if __name__ == '__main__':
     print(dataset.describe())  # affiche résumé statistique
 
     
+#Cette fonction prépare tes données de vol pour le machine learning.
+#Elle ajoute des calculs importants (vitesse verticale, phase) que tu vas utiliser comme features ou comme labels.
+#Elle s’assure que les données sont propres (sans valeurs manquantes).
+#Elle te donne un DataFrame prêt à l’emploi pour la suite (normalisation, entraînement).
