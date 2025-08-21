@@ -47,7 +47,7 @@ ax.legend(title='Phase')
 ax.set_xlabel('Altitude (m)')
 ax.set_ylabel('Ground Speed (m/s)')
 ax.set_zlabel('Vertical Speed (m/s)')
-ax.set_title('Visualisation 3D des phases de vol')
+ax.set_title('3D Visualization of the flight phases')
 plt.tight_layout()
 
 # Sauvegarder deuxième graphe
