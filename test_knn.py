@@ -19,7 +19,7 @@ X_test_np = X_test.values
 y_test_np = y_test.values
 
 # Choisir une valeur de k
-k = 2
+k = 5
 
 # Lancer la prédiction
 y_pred = knn_predict(X_train_np, y_train_np, X_test_np, k)
